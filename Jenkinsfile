@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/your-user/your-node-repo.git'
+                git 'https://github.com/Ritik-raj7/node-hello.git'
             }
         }
         stage('Install Dependencies') {
